@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 require 'active_record'
+require 'active_record/connection_adapters/deduplicable' #for rails 6
+
 require 'odbc'
 require 'odbc_utf8'
 
